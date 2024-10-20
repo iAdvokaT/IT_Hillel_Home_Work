@@ -8,86 +8,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header>
-        <img src="img/header-logo.png" alt="Green Shop logo">
+        <a href="/">
+            <img class="header-logo" src="img/header_logo.svg" alt="Green Shop logo">
+        </a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Plant Care</a></li>
-                <li><a href="#">Blogs</a></li>
-            </ul>
-            <button>Login</button>
+                <li>
+                    <a href="#" class="item-active">Home</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Plant Care</a>
+                </li>
+                <li>
+                    <a href="#">Blogs</a>
+                </li>
+            </ul>      
         </nav>
+        <button>
+            <img src="img/Logout.png" alt="">
+            Login
+        </button>
     </header>
-    <div class="container">
-        <div class="logo">       
-            <img src="img/Logo.png" alt="logo ACME">
-        </div>
-        <div class="container__description">
-            <h1>
-                Functional Style
-            </h1>
-            <p>
-                Combine practicality and style effortlessly with our furniture, offering functional designs that enhance your living space
+<main>
+    <section class="welcome-block">
+        <div class="welcome-block__content">
+            <p class="welcome-block__greetings">
+                Welcome to GreenShop
             </p>
+            <h1>
+                Let’s Make a Better <span>Planet</span> 
+            </h1>
+            <p class="welcome-block__description">
+                We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!
+            </p>
+            <a href="#" class="btn"><span>SHOP NOW</span></a>
+
         </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th class="black-text">Qty</th>
-                    <th class="black-text">Price</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <th>Total</th>
-                    <th class="tfoot__elements">6</th>
-                    <th class="tfoot__elements">$3194.99</th>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td>Elegant Feast</td>
-                    <td class="black-text">2</td>
-                    <td class="black-text">$499.99</td>
-                </tr>
-                <tr>
-                    <td>Modern Fusion</td>
-                    <td class="black-text">2</td>
-                    <td class="black-text">$699.99</td>
-                </tr>
-                <tr>
-                    <td>Rustic Charm</td>
-                    <td class="black-text">2</td>
-                    <td class="black-text">$399.99</td>
-                </tr>
+        <div class="welcome-block__image">
+            <img src="img/main_flower.png" alt="Flowerpot with flowers">
+        </div>
+            
 
-            </tbody>
-        </table>
-        <table class="footer__table">
-            <tbody>
-                <tr>
-                    <td><img src="img/Logo.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="black-text">Acme corporation</td>
-                </tr>
-                <tr>
-                    <td>Think different</td>
-                    <td class="footer__table-elements">123 Main Street Anytown, CA 12345</td>
-                </tr>
-            </tbody>
-        </table>
-        </table>
- 
-    </div>
-
+    </section>
+</main>
 </body>
 </html>
