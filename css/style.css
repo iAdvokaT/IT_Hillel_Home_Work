@@ -15,3 +15,44 @@ body  {
 .container  {
     display: flex;
 }
+
+.product-list  {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article  {
+    padding: 30px 4px;
+}
+
+.sidebar  {
+    background: #FBFBFB;
+    padding: 14px 18px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.sidebar ul  {
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+    font-weight: 700;
+    color: #46A358;
+
+}
