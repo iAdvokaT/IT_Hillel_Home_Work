@@ -58,6 +58,7 @@ ul li  {
     float: left;
     text-decoration: none;
     color: #3D3D3D;
+    margin-bottom: 30px;
 
 }
 
@@ -70,11 +71,12 @@ ul li  {
     
 }
 
-.act.active {
+.menu-item.active {
     font-weight: 700;
     border-bottom: 3px solid #46A358;
     color: #46A358;
 }
+
 
 .sort  {
     float: right;
