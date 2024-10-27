@@ -86,6 +86,13 @@ body {
   font-size: 14px;
 }
 
+.button .icon-arrow-right {
+  display: inline-block;
+  width: 16px;
+  height: auto;
+  vertical-align: middle;
+}
+
 .button:hover {
   background-color: #218838;
 }
