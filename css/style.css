@@ -14,195 +14,117 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1202px;
+  max-width: 1440px;
   display: flex;
-  justify-content: space-between;
-  gap: 28px;
+  gap: 50px;
   margin: 0 auto;
-  padding: 20px;
-  margin-bottom: 60px;
 }
 
-main  {
+header {
+  font-size: 0px;
   width: 100%;
-  max-width: 1202px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 28px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  border-bottom: 0.3px solid #46a35880;
+  margin-bottom: 40px;
 }
 
 
-.product-card {
-  max-width: 586px;
-  background-color: #FBFBFB;
-
-  padding: 20px;
-  text-align: right;
-  margin-left: auto;
-  display: flex;
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f5f580;
 }
 
-.cactus-succulent,
-.styling-trends {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 25px 0 0;
+.header-logo {
+  width: 150px;
 }
 
-
-.product-cactus-img,
-.product-styling-img {
-  width: 230px;
-  height: auto;
-
+button {
+  min-width: 100px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.11px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #46a358;
+  margin: 30px 0 18px;
+  color: #ffffff;
 }
 
-
-.product-title {
-  max-width: 150px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #3D3D3D;
-  text-transform: uppercase; 
-  margin-left: auto;
-  line-height: 24px;
+span {
+  color: #46a358;
 }
 
-
-.product-description-info {
-  color: #3D3D3D;
-  margin-bottom: 25px;
-  display: flex;
-  align-items: flex-start; /* Выровнять по левому краю */
-  font-size: 14px;
-  color: #727272; 
-  line-height: 24px;
-  margin-left: auto;
+button span {
+  padding: 4px 0px;
 }
 
-
-.button {
-  display: inline-block;
-  background-color: #46A358;
-  color: #FFFFFF;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 14px;
+section {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.button .icon-arrow-right {
-  display: inline-block;
-  width: 16px;
-  height: auto;
-  vertical-align: middle;
-}
-
-.button:hover {
-  background-color: #218838;
-}
-
-
-/* Секция блога */
-.blog-section {
+ul {
   text-align: center;
-  padding: 0;
 }
 
-/* Заголовок секции */
-.section-title {
-  font-size: 30px;
-  font-weight: 700;
-  color: #3D3D3D;
-  margin-bottom: 10px;
-}
-
-.section-description {
-  font-size: 14px;
-  color: #727272;
-  margin-bottom: 30px;
-}
-
-/* Контейнер для карточек постов */
-.blog-posts {
+li {
   display: flex;
-  justify-content: space-between; /* Равномерное распределение карточек */
-  gap: 20px; 
-  padding: 0;
-
+  font-size: 16px;
+  position: relative;
 }
 
-/* Карточка блога */
-.blog-card {
-  background-color: #FBFBFB;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  text-align: left;
-
-}
-
-/* Изображение поста */
-.blog-image {
-    width: 100%;
-    height: auto;
-}
-
-/* Контент карточки */
-.blog-content {
-  padding: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
-/* Мета-данные поста */
-.blog-meta {
-  font-size: 14px;
-  color: #46A358; 
-  margin-bottom: 10px;
-}
-
-/* Заголовок поста */
-.blog-title {
-  font-size: 23px;
-  font-weight: 700;
-  color: #3D3D3D;
-  margin: 0 0 10px;
-}
-
-/* Описание поста */
-.blog-description {
-  width: 240px;
-  font-size: 14px;
-  color: #727272;
-  margin: 0 0 15px;
-  line-height: 24px;
-}
-
-/* Кнопка "Read More" */
-.blog-read-more {
-  font-size: 14px;
-  color: #3D3D3D;
+li a {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.11px;
+  padding: 10px 20px;
   text-decoration: none;
+}
+
+li a:hover {
+  font-size: 16px;
   font-weight: 700;
-  margin-top: auto; 
+  color: #218838;
+  border-bottom: 3px solid #46a358;
 }
 
-/* Выравниваем стрелочку на кнопке "Read More" */
-.icon-blog-arrow-right {
-  display: inline-block;
-  width: 16px;
-  height: auto;
-  vertical-align: middle;
+li a.item-active {
+  border-bottom: 3px solid #46a358;
+  font-size: 16px;
+  font-weight: 700;
+  color: #218838;
 }
 
 
-.blog-read-more:hover {
-  color: #46A358;
+
+nav ul  {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+nav ul .second-menu {
+  display: none;
+}
+
+nav ul li:hover > .second-menu {
+  display: block;
+  position: absolute;
+}
+
+nav ul li ul  {
+  padding: 20px;
+  background: #EDF6EE;
+}
+
+
+.second-menu  {
+  padding-top: 40px;
+  position: absolute;
 }
