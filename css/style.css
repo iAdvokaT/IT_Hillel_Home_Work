@@ -17,7 +17,13 @@ body {
   gap: 50px;
 }
 
-.product-list {
+
+
+
+
+
+
+/* .product-list {
   display: flex;
   flex-wrap: wrap;
   gap: 33px;
@@ -126,4 +132,4 @@ section.product-filter  {
     margin: 0px;
     padding: 0px; 
     align-items: flex-start;
-}
+} */
