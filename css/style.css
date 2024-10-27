@@ -8,20 +8,87 @@ body {
   font-family: "Cera Pro";
   font-weight: 400;
   font-style: normal;
-
   padding: 0px;
+  margin-top: 60px;
 }
 
 .container {
+  width: 100%s;
+  max-width: 1202px;
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 28px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.product-card {
+  max-width: 586px;
+  background-color: #FBFBFB;
+
+  padding: 20px;
+  text-align: right;
+  margin-left: auto;
+  display: flex;
+}
+
+.cactus-succulent,
+.styling-trends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 0;
+}
+
+
+.product-cactus-img,
+.product-styling-img {
+  width: 230px;
+  height: auto;
+
+}
+
+
+.product-title {
+  max-width: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3D3D3D;
+  text-transform: uppercase; 
+  margin-left: auto;
+  line-height: 24px;
 }
 
 
 
 
 
+.product-description-info {
+  color: #3d3d3d;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-start; /* Выровнять по левому краю */
+  font-size: 14px;
+  color: #727272; /* Приглушенный цвет */
+  line-height: 24px;
+  margin-left: auto;
+}
 
+
+.button {
+  display: inline-block;
+  background-color: #46A358;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #218838;
+}
 
 /* .product-list {
   display: flex;
