@@ -13,10 +13,22 @@ body {
 }
 
 .container {
-  width: 100%s;
+  width: 100%;
   max-width: 1202px;
   display: flex;
   justify-content: space-between;
+  gap: 28px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+main  {
+  width: 100%;
+  max-width: 1202px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 28px;
   margin: 0 auto;
   padding: 20px;
@@ -61,16 +73,13 @@ body {
 }
 
 
-
-
-
 .product-description-info {
-  color: #3d3d3d;
+  color: #3D3D3D;
   margin-bottom: 25px;
   display: flex;
   align-items: flex-start; /* Выровнять по левому краю */
   font-size: 14px;
-  color: #727272; /* Приглушенный цвет */
+  color: #727272; 
   line-height: 24px;
   margin-left: auto;
 }
@@ -97,113 +106,103 @@ body {
   background-color: #218838;
 }
 
-/* .product-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 33px;
+
+/* Секция блога */
+.blog-section {
+  text-align: center;
+  padding: 0;
 }
 
-article {
-  padding: 30px 4px;
+/* Заголовок секции */
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-bottom: 10px;
 }
 
-.sidebar {
-  width: 100%;
-  max-width: 310px;
-  background: #fbfbfb;
+.section-description {
+  font-size: 14px;
+  color: #727272;
+  margin-bottom: 30px;
+}
 
+/* Контейнер для карточек постов */
+.blog-posts {
   display: flex;
-  gap: 100px;
+  justify-content: space-between; /* Равномерное распределение карточек */
+  gap: 20px; 
+  padding: 0;
+
+}
+
+/* Карточка блога */
+.blog-card {
+  background-color: #FBFBFB;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+/* Изображение поста */
+.blog-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Контент карточки */
+.blog-content {
+  padding: 18px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
-.sidebar .head {
-    padding: 14px 18px;
+/* Мета-данные поста */
+.blog-meta {
+  font-size: 14px;
+  color: #46A358; 
+  margin-bottom: 10px;
 }
 
-.sidebar .sidebar-sale-promo  img {
-    width: 100%
-}
-
-.sidebar h2 {
-  font-size: 18px;
+/* Заголовок поста */
+.blog-title {
+  font-size: 23px;
   font-weight: 700;
-  line-height: 16px;
-  text-align: left;
-  color: #3d3d3d;
+  color: #3D3D3D;
+  margin: 0 0 10px;
 }
 
-.sidebar ul {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 40px;
-  text-align: left;
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
+/* Описание поста */
+.blog-description {
+  width: 240px;
+  font-size: 14px;
+  color: #727272;
+  margin: 0 0 15px;
+  line-height: 24px;
 }
 
-.sidebar ul a {
+/* Кнопка "Read More" */
+.blog-read-more {
+  font-size: 14px;
+  color: #3D3D3D;
   text-decoration: none;
-  color: #3d3d3d;
-  padding: 12px 10px;
-}
-
-.sidebar ul li {
-  margin-bottom: 15px;
-}
-
-.sidebar ul li a.active,
-.sidebar ul li:hover a {
   font-weight: 700;
-  color: #46a358;
+  margin-top: auto; 
+}
+
+/* Выравниваем стрелочку на кнопке "Read More" */
+.icon-blog-arrow-right {
+  display: inline-block;
+  width: 16px;
+  height: auto;
+  vertical-align: middle;
 }
 
 
-.tabs {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 16px;
-  text-align: left;
-  display: flex;
-  gap: 35px;
+.blog-read-more:hover {
+  color: #46A358;
 }
-
-.tabs a {
-  margin-right: 37px;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 8px;
-}
-
-.tabs a:last-child {
-    margin-right: 20px;
-}
-
-.tabs a.active,
-.tabs a:hover {
-  color: #46a358;
-  font-weight: 700;
-  border-bottom: 2px solid #46a358;
-
-}
-
-
-section.product-filter  {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px; 
-}
-
-.sort  {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.sort p  {
-    margin: 0px;
-    padding: 0px; 
-    align-items: flex-start;
-} */
