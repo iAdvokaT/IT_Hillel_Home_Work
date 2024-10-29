@@ -232,3 +232,50 @@ main img {
   color: #FFFFFF;
   border-color: #46A358;
 }
+
+.product-item-head img {
+  float: none;
+}
+
+.product-item-body p {
+  float: none;
+}
+
+.product-item a .product-item-head {
+  border-top: 1px solid transparent;
+}
+
+.product-item a:hover .product-item-head {
+  border-top: 1px solid #46a358;
+}
+
+.product-item-head {
+  position: relative;
+}
+
+.product-item-head-buttons {
+  display: none;
+  position: absolute;
+  bottom: 19px;
+  width: 100%;
+  text-align: center;
+}
+
+.product-item a:hover .product-item-head-buttons {
+  display: block;
+  
+}
+
+button{
+  padding: 5px;
+}
+
+button img { 
+  max-width: 100%;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+}
