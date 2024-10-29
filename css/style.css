@@ -75,6 +75,7 @@ margin: 0 20px 30px 0;
   border-bottom: 3px solid #46A358;
   text-decoration: none;
   color: #46A358;
+  /* border: transparent; */
 
   
 }
@@ -207,6 +208,7 @@ main img {
 .pagination  {
   float: right;
   padding-top: 90px;
+  
 }
 
 .page  {
@@ -230,5 +232,3 @@ main img {
   color: #FFFFFF;
   border-color: #46A358;
 }
-
-
