@@ -302,3 +302,19 @@ button {
   top: 19%;
   right: 6%;
 }
+
+
+.sale-btn  {
+  color: #FFFFFF;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  min-width: 70px;
+  text-align: center;
+  display: block;
+  background-color: #46A358;
+  padding: 9px 0;
+  position: absolute;
+  top: 3%;
+
+}
