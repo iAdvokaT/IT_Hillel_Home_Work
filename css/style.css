@@ -261,6 +261,7 @@ main img {
   bottom: 19px;
   width: 100%;
   text-align: center;
+  bottom: -1%;
 }
 
 .product-item a:hover .product-item-head-buttons {
