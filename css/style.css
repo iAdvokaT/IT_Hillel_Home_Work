@@ -25,6 +25,8 @@ ul li  {
   padding: 4px 8px;
 }
 
+
+
 header {
   margin-bottom: 40px;
 }
@@ -35,29 +37,86 @@ nav ul {
   align-items: center;
   list-style-type: none;
   position: relative;
+
 }
+
+nav ul a {
+  color: #3D3D3D;
+  text-decoration: none;
+}
+
+nav ul a:hover  {
+  font-weight: 700;
+  color: #3D3D3D;
+
+}
+
 
 nav ul .second-menu {
   display: none;
+  z-index: 1;
 }
 
 nav ul li:hover > .second-menu  {
   display: block;
+
   /* position: absolute; */
 
 }
 
+
+.second-menu ul li {
+  display: flex;
+  flex-direction: column;
+  /* float: left; */
+  padding: 4px 8px;
+}
+
 .second-menu ul {
-  padding: 20px;
+  padding: 0px;
   background-color: #EDF6EE;
   display: flex;
   flex-direction: column;
+
 }
 
+/* .second-menu ul:hover li {
+  background-color: #ccc;
+}  тестирую изменение вкладки списка --- удали перед те как сдавать дз*/ 
 
 .second-menu  {
   padding-top: 20px;
   position: absolute;
+  width: 188px;
+  height: 143px;
+  text-decoration:none;
+  color: #3D3D3D;
+}
+
+
+.second-menu li  {
+  position: relative;
+  width: 100%;
+
+}
+
+.second-menu a {
+  display: block;
+  width: 100%;
+  padding: 10px 8px;
+  color: #3D3D3D;
+  text-decoration:none;
+  
+}
+
+.second-menu a:hover  {
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #1A712A;
+}
+
+.second-menu li:hover > .third-menu {
+  display: block;
 }
 
 .third-menu  {
@@ -65,18 +124,8 @@ nav ul li:hover > .second-menu  {
   position: absolute;
   left: 100%;
   top: 0px;
+  
 }
-
-.second-menu li  {
-  position: relative;
-  padding: 10px 8px;
-  width: 100%;
-}
-
-.second-menu li:hover > .third-menu {
-  display: block;
-}
-
 
 .clear-float::after {
   content: "";
