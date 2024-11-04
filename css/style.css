@@ -95,7 +95,7 @@ nav ul li:hover > .second-menu  {
 
 
 .second-menu li  {
-  position: relative;
+  /* position: relative; меню вверху*/ 
   width: 100%;
 
 }
@@ -124,6 +124,7 @@ nav ul li:hover > .second-menu  {
   position: absolute;
   left: 100%;
   top: 0px;
+  width: 180px;
   
 }
 
