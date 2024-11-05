@@ -33,7 +33,7 @@ header {
 
 nav ul {
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
   align-items: center;
   list-style-type: none;
   position: relative;
@@ -70,6 +70,13 @@ nav ul li:hover > .second-menu  {
   flex-direction: column;
   /* float: left; */
   padding: 4px 8px;
+  gap: 30px;
+}
+
+.priming-arrow  {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
 }
 
 .second-menu ul {
@@ -106,7 +113,6 @@ nav ul li:hover > .second-menu  {
   padding: 10px 8px;
   color: #3D3D3D;
   text-decoration:none;
-  
 }
 
 .second-menu a:hover  {
