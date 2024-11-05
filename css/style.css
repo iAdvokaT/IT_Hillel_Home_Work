@@ -51,6 +51,15 @@ nav ul a:hover  {
 
 }
 
+.first-menu-list a:hover  {
+  border-bottom: 3px solid #46A358;
+  padding-bottom: 10px;
+}
+
+.second-menu-list a:hover  {
+  border-bottom: none;
+}
+
 
 nav ul .second-menu {
   display: none;
@@ -74,10 +83,20 @@ nav ul li:hover > .second-menu  {
 }
 
 .priming-arrow  {
-  display: flex;
-  justify-content: space-between;
-
+display: none;
+align-items: center;
+justify-content: space-between;
 }
+
+.material-symbols-outlined {
+  display: none;
+}
+
+.second-menu a:hover > .material-symbols-outlined {
+  display: block;
+}
+
+
 
 .second-menu ul {
   padding: 0px;
@@ -108,29 +127,35 @@ nav ul li:hover > .second-menu  {
 }
 
 .second-menu a {
-  display: block;
+  display: flex;
+  font-size: 16px;
   width: 100%;
   padding: 10px 8px;
   color: #3D3D3D;
   text-decoration:none;
 }
 
-.second-menu a:hover  {
+
+.second-menu a:hover {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #1A712A;
+
 }
 
 .second-menu li:hover > .third-menu {
   display: block;
 }
 
+
+
 .third-menu  {
   display: none;
   position: absolute;
-  left: 100%;
+  left: 96%;
   top: 0px;
-  width: 180px;
+  width: 188px;
+  padding-left: 10px;
   
 }
 
