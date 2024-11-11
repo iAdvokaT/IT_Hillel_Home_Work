@@ -527,7 +527,7 @@ footer  {
 .footer-top-newsletter p  {
   font-size: 13px;
   color: #727272;
-  padding-top: 7px;
+  padding-top: 8px;
   line-height: 22px;
 }
 
@@ -622,7 +622,9 @@ height: 44px;
   justify-content: space-between;
 }
 
-.footer-social-list-account {
+.footer-social-list-account,
+.footer-social-list-help,
+.footer-social-list-categories{
   display: flex;
   flex-direction: column;
   width: 103px;
@@ -630,7 +632,9 @@ height: 44px;
   margin: 10px 0 0 15px;
 
 }
-.footer-social-list-account a {
+.footer-social-list-account a,
+.footer-social-list-help a,
+.footer-social-list-categories a  {
   text-decoration: none;
   color: #3D3D3D;
   
