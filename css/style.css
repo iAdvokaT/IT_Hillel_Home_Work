@@ -527,7 +527,7 @@ footer  {
 .footer-top-newsletter p  {
   font-size: 13px;
   color: #727272;
-  padding-top: 9px;
+  padding-top: 7px;
   line-height: 22px;
 }
 
@@ -620,7 +620,6 @@ height: 44px;
 .footer-social  {
   display: flex;
   justify-content: space-between;
-  min-width: 1140px;
 }
 
 .footer-social-list-account {
@@ -628,6 +627,8 @@ height: 44px;
   flex-direction: column;
   width: 103px;
   height: 174px;
+  margin: 10px 0 0 15px;
+
 }
 .footer-social-list-account a {
   text-decoration: none;
