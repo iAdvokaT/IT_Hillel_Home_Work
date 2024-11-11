@@ -471,7 +471,7 @@ footer  {
 .footer-blog-card-garden,
 .footer-blog-card-plant,.footer-blog-card-watering  {
   padding-top: 50px;
-  margin: 24px 0px;
+  margin: 24px 0px 24px 25px;
   width: 204px;
   height: 202px;
   background-repeat: no-repeat;
