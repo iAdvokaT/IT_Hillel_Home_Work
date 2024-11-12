@@ -622,29 +622,40 @@ height: 44px;
   justify-content: space-between;
 }
 
-.footer-social-list-account,
-.footer-social-list-help,
-.footer-social-list-categories{
-  display: flex;
-  flex-direction: column;
-  width: 103px;
-  height: 174px;
-  margin: 10px 0 0 15px;
 
+
+.footer-social-list-account h3,
+.footer-social-list-help h3,
+.footer-social-list-categories h3 {
+  font-weight: 700;
+  color: #3D3D3D;
 }
+
 .footer-social-list-account a,
 .footer-social-list-help a,
 .footer-social-list-categories a  {
   text-decoration: none;
   color: #3D3D3D;
-  
+  flex-wrap: nowrap;
 }
+
+
+.footer-social-list-account  {
+  display: flex;
+  flex-direction: column;
+  width: 113px;
+  height: 174px;
+  margin: 33px 0 27px 15px;
+}
+
 
 .footer-social-list-help  {
   display: flex;
   flex-direction: column;
-  width: 170px;
+  width: 167px;
   height: 174px;
+  margin: 33px 0 27px 54px;
+
 }
 
 .footer-social-list-categories  {
@@ -652,6 +663,46 @@ height: 44px;
   flex-direction: column;
   width: 120px;
   height: 174px;
+  margin: 33px 0 27px 0px;
+} 
+
+
+.footer-social-media-list  {
+  width: 242px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 155px;
+
 }
+
+/* ОБРАТИ ВНИМАНИЕ доработать цвета на ховер соцсетей 
+    fill-opacity: 0.5; /* прозрачность заливки */
+    /* stroke: #ff6c00; цвет обводки */
+    /* stroke-width: 10px; толщина обводки */
+    /* stroke-opacity: 0.8; прозрачность обводки */ 
+    /* ОБРАТИ ВНИМАНИЕ доработать цвета на ховер соцсетей  */
+
+.footer-social-media-list svg:hover {
+  fill: #3D3D3D;
+}
+
+
+.social-media-list h3 {
+  font-weight: 700;
+  color: #3D3D3D;
+  margin: 33px 0 13px 0;
+}
+
+.social-media-accept-list h3 {
+  font-weight: 700;
+  color: #3D3D3D;
+  margin: 18px 0 13px 0;
+}
+
+.footer-media-lit li  {
+  padding: 10px 0;
+}
+
 
 /* footer list end*/
