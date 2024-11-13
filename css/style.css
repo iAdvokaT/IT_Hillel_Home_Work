@@ -487,6 +487,9 @@ align-items:center;
 
 .footer-blog-card-garden,
 .footer-blog-card-plant,.footer-blog-card-watering  {
+  display: flex;
+  flex-direction: column;
+  max-width: 205px;
   padding-top: 50px;
   margin: 24px 0px 24px 25px;
   width: 204px;
@@ -526,6 +529,34 @@ align-items:center;
   width: 207px;
   line-height: 22px;
 }
+
+/* начало теста Бордер по бокам для дивака */
+
+.footer-blog-card-plant {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.footer-blog-card-plant::before,
+.footer-blog-card-plant::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px; /* Толщина линии */
+  background-color: #46A3581A; 
+}
+.footer-blog-card-plant::before {
+  left: -30px; /* Расстояние линии от контента */
+}
+
+.footer-blog-card-plant::after  {
+  right: -30px;  /* Расстояние линии от контента */
+}
+
+
+/*конец теста Бордер по бокам для дивака  */
 
 .footer-top-newsletter  {
   width: 354px;
