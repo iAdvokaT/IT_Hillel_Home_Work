@@ -96,7 +96,7 @@ button.btn-header  {
   border: 0px;
   border-radius: 6px;
   background-color: #46A358;
-  margin: 30px 0 18px;
+  /* margin: 30px 0 18px; */
   color: #FFFFFF;
   display: flex;
   align-items: center;
