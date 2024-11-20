@@ -41,11 +41,6 @@ ul li  {
   padding: 10px 30px;
 } */
 
-
-/* header {
-
-} */
-
 /* СТИЛИЗАЦИЯ ВЕРХУШКИ */
 
 /* .header-block  {
@@ -101,6 +96,7 @@ button.btn-header  {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
 }
 button.btn-header svg  {
   margin-right: 8px;
@@ -111,6 +107,7 @@ button.btn-header svg  {
   color: #FFFFFF;
   display: flex;
   align-items: center;
+  transition: all 0.5s;
 }
 
 button.btn-header:hover {
@@ -126,21 +123,11 @@ button span  {
   padding: 4px 0px;
 }
 
-section  {
+section.clear-float  {
 
   width: 100%;
   margin: 0 auto;
 }
-
-/* ul  {
-  text-align: center;
-}
-
-li  {
-
-  display: inline-block;
-  font-size: 16px;
-} */
 
 
 .navbar-header li a  {
@@ -148,9 +135,12 @@ li  {
   font-size: 16px;
   font-weight: 400;
   line-height: 20.11px;
-  padding: 10px 20px;
+  padding: 10px 0px;
   text-decoration: none;
   color: #3D3D3D;
+  border-bottom: 3px solid #46A358;
+  border-color: transparent;
+  transition: all 0.5s;
 }
 
 .item-active  {
@@ -172,7 +162,9 @@ h1  {
   color: #3D3D3D;
 }
 
-
+section.welcome-block   {
+  margin-bottom: 40px;
+}
 
 .welcome-block__content  {
   padding: 55px 30px 0px 20px;
@@ -207,7 +199,7 @@ h1  {
   display: inline-block;
   background-color: #46A358;
   padding: 15px;
-
+  transition: all 0.5s;
 }
 
 .btn:hover  {
@@ -225,9 +217,9 @@ h1  {
 }
 
 .welcome-block__image  {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
+  display: flex;
+  /* vertical-align: top;
+  width: 40%; */
 
 }
 
@@ -241,6 +233,11 @@ h1  {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.main-contant  {
+  width: 100%;
+  max-width: 1440px;
 }
 
 .navbar-header ul {
@@ -264,6 +261,7 @@ nav ul a:hover  {
   color: #3D3D3D;
 
 }
+
 
 .first-menu-list a:hover  {
   border-bottom: 3px solid #46A358;
@@ -330,8 +328,8 @@ justify-content: space-between;
   height: 143px;
   text-decoration:none;
   color: #3D3D3D;
-  top: 63px;
-  right: 165px;
+  top: 40px;
+  right: 30px;
 }
 
 
@@ -426,6 +424,7 @@ justify-content: space-between;
   color: #3d3d3d;
   /* margin-bottom: 30px; */
   margin: 0 20px 30px 0;
+  transition: all 0.2s;
 }
 
 .tabs a:hover {
@@ -500,7 +499,12 @@ justify-content: space-between;
   position: relative;
 }
 
-
+.main-menu  {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+}
 
 main {
   display: flex;
@@ -512,9 +516,11 @@ main img {
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
   width: 200px;
   height: 774px;
-  float: left;
+  /* float: left; */
   margin-right: 20px;
   padding: 20px;
   background-color: #fbfbfb;
@@ -528,7 +534,9 @@ main img {
 
 .sidebar ul {
   list-style-type: none;
-  float: left;
+  /* float: left; */
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar ul li {
@@ -728,6 +736,7 @@ button {
   border-radius: 4px;
   text-decoration: none;
   font-size: 14px;
+  transition: all 0.5s;
 }
 
 .button .icon-arrow-right {
@@ -778,7 +787,7 @@ button {
   justify-content: space-between;
   flex-direction: column;
   text-align: left;
-
+  width: 100%;
 }
 
 /* Изображение поста */
@@ -827,6 +836,7 @@ button {
   text-decoration: none;
   font-weight: 700;
   margin-top: auto; 
+  transition: all 0.2s;
 }
 
 /* Выравниваем стрелочку на кнопке "Read More" */
@@ -983,6 +993,7 @@ align-items:center;
   border: none;
   border-radius: 0px 5px 5px 0px;
   cursor: pointer;
+  transition: all 0.2s;
 
 }
 
@@ -1187,6 +1198,7 @@ height: 44px;
 .footer-media-list  {
   padding: 10px 0;
   display: flex;
+  transform: all 0.2s;
 }
 
 
