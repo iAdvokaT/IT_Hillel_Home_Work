@@ -553,6 +553,7 @@ main img {
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
+  padding: 14px 0 0 18px;
 }
 
 .sidebar ul {
@@ -564,7 +565,8 @@ main img {
 
 .sidebar ul li {
   margin-top: 23px;
-  float: left;
+  /* float: left; */
+  padding: 7px 0 0 30px;
 }
 
 .sidebar ul li a {
@@ -643,6 +645,14 @@ main img {
   justify-content: space-between;
   padding-top: 24px;
 
+}
+
+.blog-product {
+  display: flex;
+      margin-bottom: 138px;
+      max-width: 1440px;
+      gap: 28px;
+      justify-content: space-between;
 }
 
 .product-item-body p {
@@ -734,21 +744,45 @@ button {
 /* СТИЛИ БЛОК до ФУТЕРА */
 
 .product-card {
-  max-width: 586px;
+  /* max-width: 586px; */
   background-color: #FBFBFB;
-
+  position: relative;
   padding: 20px;
   text-align: right;
-  margin-left: auto;
+  /* margin-left: auto; */
   display: flex;
 }
 
-.cactus-succulent,
-.styling-trends {
+.cactus-succulent {
+  display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 25px 0 0;
+
+      width: 586px;
+}
+
+.styling-trends  {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 25px 0 0;
+  position: relative;
+  width: 586px;
+  height: 250px;
+
+}
+
+.product-cactus-img > img {
+  position: absolute;
+  top: -20%;
+  right: 50%;
+}
+
+.product-styling-img > img {
+  position: absolute;
+  top: -19%;
+  right: 50%;
 }
 
 
@@ -758,6 +792,7 @@ button {
   height: auto;
 
 }
+
 
 
 .product-title {
@@ -770,6 +805,9 @@ button {
   line-height: 24px;
 }
 
+.description  {
+  width: 292px;
+}
 
 .product-description-info {
   color: #3D3D3D;
