@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* outline: 1px solid;  смотреть какой блок вылез*/
+  /* outline: 1px solid;  смотреть какой блок вылез */
 }
 
 header  {
@@ -171,7 +171,7 @@ h1  {
 
 section.welcome-block   {
   margin-bottom: 40px;
-  width: 1440px;
+  /* width: 1440px; */
 }
 
 .welcome-block__content  {
@@ -476,7 +476,7 @@ justify-content: space-between;
   color: #3d3d3d;
   padding: 0 5px 2px 5px;
   outline: none;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
 }
 
 .sort select:focus {
@@ -514,6 +514,11 @@ justify-content: space-between;
   /* padding-bottom: 70px; */
   position: relative;
   margin-bottom: 90px;
+}
+
+.item-product-price  {
+  display: flex;
+
 }
 
 .main-menu  {
@@ -584,6 +589,20 @@ main img {
     flex-wrap: wrap;
 }
 
+.product-item a svg:hover .cart-icon,
+.product-item a svg:hover .wishlist-icon,
+.product-item a svg:hover .header-search-icon {
+  fill:  #46A358;
+  stroke: #46A358;
+  cursor: pointer;
+}
+
+.btn-header-cart,
+.btn-header-wishlist,
+.btn-header-search {
+  cursor: pointer;
+}
+
 .pagination-item  {
   margin-bottom: 94px;
 }
@@ -618,14 +637,16 @@ main img {
   border-color: #46a358;
 }
 
-.product-item-head img {
+.product-item-head .showcase-img {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding-top: 24px;
+
 }
 
 .product-item-body p {
-  float: none;
+  display: flex;
 }
 
 .product-item a .product-item-head {
@@ -638,6 +659,9 @@ main img {
 
 .product-item-head {
   position: relative;
+  height: 300px;
+  background: #FBFBFB;
+  margin-bottom: 12px;
 }
 
 .product-item-head-buttons {
@@ -646,7 +670,7 @@ main img {
   bottom: 19px;
   width: 100%;
   text-align: center;
-  bottom: -1%;
+  bottom: 1%;
 }
 
 .product-item a:hover .product-item-head-buttons {
@@ -672,18 +696,19 @@ button {
   color: #a5a5a5;
   font-size: 18px;
   font-weight: 400;
-  display: none;
+  /* display: none; */
+  padding-left: 16px;
 }
 
-.product-item:hover .through {
+/* .product-item:hover .through {
   display: block;
   position: absolute;
   bottom: 19px;
   width: 100%;
   text-align: center;
-  top: 19%;
+  top: 48%;
   right: 6%;
-}
+} */
 
 .sale-btn {
   color: #ffffff;
@@ -696,7 +721,7 @@ button {
   background-color: #46a358;
   padding: 9px 0;
   position: absolute;
-  top: 3%;
+  top: 5%;
 }
 
 .footer-blog  {
