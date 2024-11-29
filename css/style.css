@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* outline: 1px solid; */
+  outline: 1px solid;
 }
 
 header {
@@ -1250,7 +1250,9 @@ footer .footer-bottom {
   .header-block .container {
     max-width: 1200px;
   }
-
+.product-cactus-img > img {
+  right: 48%;
+}
   .blog-product .container {
     max-width: 1200px;
     width: 100%;
