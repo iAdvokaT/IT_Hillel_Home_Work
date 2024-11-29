@@ -1306,6 +1306,25 @@ footer .footer-bottom {
     align-items: center;
   }
 
+  .blog-card  {
+    background-color: #fbfbfb;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        align-items: center;
+        padding-top: 20px;
+  }
+
+  img.blog-card-image  {
+    width: 29%;
+  }
+
+  .blog-content  {
+    width: 33%;
+  }
+
   .blog-posts {
     max-width: 992px;
     width: 100%;
