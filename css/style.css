@@ -1607,7 +1607,7 @@ footer .footer-bottom {
   }
 
   .navbar-header li a  {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .sort p  {
@@ -1635,6 +1635,11 @@ footer .footer-bottom {
     left: 94%;
 
     width: 140px;
+
+  }
+
+  .welcome-block__description  {
+    width: 210px;
 
   }
 }
