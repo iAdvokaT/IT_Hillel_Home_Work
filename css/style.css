@@ -1473,6 +1473,12 @@ footer .footer-bottom {
     display: none;
   }
 
+  .product-cactus-img > img  {
+    position: absolute;
+    top: -20%;
+    right: 50%;
+  }
+
   .welcome-block__description {
     width: 449px;
   }
