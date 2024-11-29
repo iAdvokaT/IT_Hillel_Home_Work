@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* outline: 1px solid;   */
+  /* outline: 1px solid; */
 }
 
 header {
@@ -745,7 +745,7 @@ button {
 .product-cactus-img > img {
   position: absolute;
   top: -20%;
-  right: 50%;
+  right: 65%;
 }
 
 .product-styling-img > img {
@@ -1470,59 +1470,173 @@ footer .footer-bottom {
     margin: 0;
   }
 
-  /* .blog-product .container {
-    max-width: 992px;
-    width: 100%;
+}
+
+@media (max-width: 540px)  {
+  .sidebar  {
+    display: none;
   }
 
-
-  .blog-section {
-    max-width: 992px;
+  .welcome-block__description  {
+    width: 449px;
   }
 
-  .blog-product {
-    max-width: 992px;
+  .second-menu  {
+    top: 40px;
+    right: 140px;
+    padding-right: 40px;
+  }
+
+  img.blog-card-image  {
+    width: 54%;
+  }
+
+  .footer-social  {
+    position: relative;
+  }
+
+  .footer-social-media-list  {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    width: 260px;
+  }
+
+}
+
+@media (max-width: 320px)  {
+
+  .header-block  {
+
+
+  }
+  .welcome-block__description  {
+    width: 240px;
+  }
+
+  .navbar-header ul  {
+    gap: 15px;
+  }
+
+  .navbar-header  {
+    padding: 10px 5px;
+  }
+
+  .product-cactus-img > img  {
+    position: absolute;
+    top: -20%;
+    right: 50%;
+    width: 50%;
+  }
+
+  .product-styling-img > img  {
+    width: 50%;
+  }
+
+  .description  {
+    width: 320px;
+  }
+
+  img.blog-card-image  {
+    width: 96%;
+  }
+
+  .footer-social-list  {
+    width: 320px;
+    justify-content: center;
     display: flex;
-    margin-bottom: 138px;
-    gap: 5px;
-    width: 100%;
-    justify-content: space-between;
+
+  }
+
+  .footer-social-media-list  {
+
+    width: 260px;
+  }
+
+  .footer-social  {
+    position: none;
+  }
+
+  .footer-social-media-list  {
+    position: static;
+  }
+  
+
+  .footer-blog  {
+    margin-bottom: 80px;
+  }
+
+  .footer-top-newsletter h3  {
+    padding: 13px 6px 25px 6px;
+  }
+
+  .product-description-info  {
+    width: 140px;
+  }
+
+  .second-menu  {
+    top: 40px;
+        right: 97px;
+        padding-right: 40px;
+  }
+
+  .footer-bottom-copyright  {
+    padding: 3px;
+    width: 210px;
+  }
+
+  .blog-content {
+    width: 260px;
+  }
+
+  .navbar-header ul  {
+    gap: 9px;
+  }
+
+  .tabs  {
+    flex-direction: column;
+  }
+
+  .sort  {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  h1  {
+    font-size: 58px;
+  }
+
+  .navbar-header li a  {
+    font-size: 11px;
+  }
+
+  .sort p  {
     flex-direction: column;
     align-items: center;
   }
-
-  .blog-posts {
-    max-width: 992px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+  .footer-top-newsletter  {
+    padding: 6px;
   }
 
- 
-
-  .cactus-succulent  {
-    max-width: 992px;
-    height: 250px;
-    margin-bottom: 55px;
+  .section-description  {
+    line-height: 20px;
   }
 
-  .styling-trends {
-    max-width: 992px;
+  .footer-blog-card-plant::before, .footer-blog-card-plant::after  {
+    content: none;
   }
 
-  .description {
-    max-width: 992px;
-    width: 53%;
-    padding: 15px;
-}
+  .second-menu  {
+    right: 68px;
+  }
 
+  .third-menu  {
 
+    left: 94%;
 
-.footer-top-newsletter  {
-  width: 100%;
-} */
+    width: 140px;
+
+  }
 }
 
 /* adaptability END */
