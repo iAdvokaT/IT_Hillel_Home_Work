@@ -1549,6 +1549,9 @@ footer .footer-bottom {
   .footer-contact  {
     height: 320px;
   }
+  section.clear-float {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 320px) {
