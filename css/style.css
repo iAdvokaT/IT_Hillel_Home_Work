@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* outline: 1px solid; */
+  outline: 1px solid;
 }
 
 header {
@@ -1004,7 +1004,7 @@ footer .footer-bottom {
 
 .footer-top-newsletter {
   width: 354px;
-  height: 202px;
+  /* height: 202px; */
   /* padding-top: 37px; */
   margin: 24px 20px 24px 0px;
 }
@@ -1268,6 +1268,26 @@ footer .footer-bottom {
 
   .blog-posts {
     max-width: 1200px;
+  }
+
+  .blog-posts   {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .blog-section  {
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-blog  {
+    gap: 15px;
   }
 }
 
