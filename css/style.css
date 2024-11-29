@@ -1274,6 +1274,12 @@ footer .footer-bottom {
     max-width: 992px;
   }
 
+  .product-cactus-img > img  {
+    position: absolute;
+    top: -20%;
+    right: 50%;
+  }
+
   .blog-product .container {
     max-width: 992px;
     width: 100%;
@@ -1372,6 +1378,12 @@ footer .footer-bottom {
   .welcome-block__image img {
     width: 50%;
     max-width: 768px;
+  }
+
+  .product-cactus-img > img  {
+    position: absolute;
+    top: -20%;
+    right: 50%;
   }
 
   .sidebar-sale-promo img {
