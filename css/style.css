@@ -1250,9 +1250,9 @@ footer .footer-bottom {
   .header-block .container {
     max-width: 1200px;
   }
-.product-cactus-img > img {
-  right: 48%;
-}
+  .product-cactus-img > img {
+    right: 48%;
+  }
   .blog-product .container {
     max-width: 1200px;
     width: 100%;
@@ -1306,22 +1306,22 @@ footer .footer-bottom {
     align-items: center;
   }
 
-  .blog-card  {
+  .blog-card {
     background-color: #fbfbfb;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        text-align: left;
-        width: 100%;
-        align-items: center;
-        padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
   }
 
-  img.blog-card-image  {
+  img.blog-card-image {
     width: 29%;
   }
 
-  .blog-content  {
+  .blog-content {
     width: 33%;
   }
 
@@ -1366,7 +1366,7 @@ footer .footer-bottom {
   }
   .footer-blog-card-garden p,
   .footer-blog-card-plant p,
-  .footer-blog-card-watering p  {
+  .footer-blog-card-watering p {
     width: 200px;
   }
 }
@@ -1421,11 +1421,7 @@ footer .footer-bottom {
   }
 
   .sidebar {
-    display: flex;
-    flex-direction: column;
-    width: 210px;
-    height: 774px;
-    background-color: #fbfbfb;
+    display: none;
   }
 
   .blog-card {
@@ -1505,7 +1501,7 @@ footer .footer-bottom {
     margin: 0;
   }
 
-  .footer-contact  {
+  .footer-contact {
     height: 320px;
   }
 }
@@ -1546,11 +1542,51 @@ footer .footer-bottom {
     width: 260px;
   }
 
-  .footer-contact  {
+  .footer-contact {
     height: 320px;
   }
   section.clear-float {
     justify-content: center;
+  }
+  .welcome-block__description {
+    width: 320px;
+  }
+
+  .navbar-header li a {
+    font-size: 11px;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+  .sort {
+    display: flex;
+
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  .product-cactus-img > img  {
+    right: 30%;
+  }
+
+  .product-styling-img > img {
+    right: 30%;
+  }
+  .button  {
+    padding: 10px 10px;
+  }
+  img.blog-card-image  {
+    width: 75%;
+  }
+  .footer-social  {
+    position: static;
+    justify-content: center;
+  }
+
+  .footer-social-media-list  {
+    position: static;
+
   }
 }
 
