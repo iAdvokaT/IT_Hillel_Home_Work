@@ -1504,6 +1504,10 @@ footer .footer-bottom {
     padding: 2px 31px 2px 31px;
     margin: 0;
   }
+
+  .footer-contact  {
+    height: 320px;
+  }
 }
 
 @media (max-width: 540px) {
