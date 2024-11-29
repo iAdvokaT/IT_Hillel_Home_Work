@@ -1541,6 +1541,10 @@ footer .footer-bottom {
     left: 48%;
     width: 260px;
   }
+
+  .footer-contact  {
+    height: 320px;
+  }
 }
 
 @media (max-width: 320px) {
