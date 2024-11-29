@@ -1647,6 +1647,10 @@ footer .footer-bottom {
     padding: 13px 6px 25px 6px;
         line-height: 23px;
   }
+
+  .second-menu  {
+    right: 52px;
+  }
 }
 
 /* adaptability END */
