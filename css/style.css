@@ -1701,4 +1701,10 @@ footer .footer-bottom {
   }
 }
 
+@media (max-width: 280px) {
+  .footer-contact {
+    height: 320px;
+  }
+}
+
 /* adaptability END */
